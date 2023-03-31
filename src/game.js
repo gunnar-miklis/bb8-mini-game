@@ -17,40 +17,40 @@ class Game {
         // background images
         this.bgImages = [
             { 
-                path: loadImage('../assets/background/plx-1.png'), 
+                path: loadImage('./assets/background/plx-1.png'), 
                 x: 0,
                 speed: 0
             },
             { 
-                path: loadImage('../assets/background/plx-2.png'), 
+                path: loadImage('./assets/background/plx-2.png'), 
                 x: 0,
                 speed: 1
             },
             { 
-                path: loadImage('../assets/background/plx-3.png'), 
+                path: loadImage('./assets/background/plx-3.png'), 
                 x: 0,
                 speed: 2
             },
             { 
-                path: loadImage('../assets/background/plx-4.png'), 
+                path: loadImage('./assets/background/plx-4.png'), 
                 x: 0,
                 speed: 3
             },
             { 
-                path: loadImage('../assets/background/plx-5.png'), 
+                path: loadImage('./assets/background/plx-5.png'), 
                 x: 0,
                 speed: 4
             },
         ]
 
         // player image
-        this.playerImage = loadImage('../assets/player/bb8.gif');
+        this.playerImage = loadImage('./assets/player/bb8.gif');
 
         // obstacle image
-        this.coinImage = loadImage('../assets/coins/tile000.png');
+        this.coinImage = loadImage('./assets/coins/tile000.png');
 
         // celebrate image
-        this.celebrateImage = loadImage('../assets/win/baby-yoda.gif');
+        this.celebrateImage = loadImage('./assets/win/baby-yoda.gif');
     }
 
     drawBg() {
