@@ -31,7 +31,7 @@ class Player {
     }
 
     doesWin() {
-        if ( this.score >= 1 ) {
+        if ( this.score >= 10 ) {
             fill('orange');
             textStyle(BOLD);
             textSize(50);
