@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth/1.5, 600);
 }
 
 function draw() {
@@ -17,4 +17,12 @@ function draw() {
 
 function keyPressed() {
   if (keyCode === 32) game.player.jump(); // space button
+}
+
+function touchStarted() {
+  game.player.jump(); // for mobile devices
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth/1.5, 600)
 }

@@ -10,16 +10,16 @@ body {
   align-items: center;
   font-family: sans-serif;
   background-color: #c8dad3;
-  font-size: 20px;
+  font-size: 16px;
 }
 
-h1 {
+h2 {
   margin-bottom: 0;
 }
-h2 {
+h3 {
   font-weight: normal;
 }
-h2 span {
+h3 span {
   font-weight: bold;
   font-size: 120%;
 }

@@ -20,7 +20,7 @@ class Player {
 
         // to make sure player stays in canvas
         if ( this.y >= 600 - this.height ) this.y = 600 - this.height; // bottom, ground
-        if ( this.y < 0 ) { this.y = 0 } // top, ceiling
+        if ( this.y < -1 ) { this.y = 0 } // top, ceiling
 
         // place player (image)
         image( game.playerImage, this.x, this.y, this.width, this.height );
@@ -35,7 +35,7 @@ class Player {
             fill('orange');
             textStyle(BOLD);
             textSize(50);
-            text(' Wiiiiiin !!!', 160, 100);
+            text('Wiiiiiin !!!', 100, 100);
             text('*happy beep*',100, 500);
             image( game.celebrateImage, 100, 150, 350, 250);
             // noLoop(); // stops animation
