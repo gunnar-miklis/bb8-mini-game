@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth/1.5, 600);
+  createCanvas(windowWidth/1.1, 600);
 }
 
 function draw() {
@@ -24,5 +24,5 @@ function touchStarted() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth/1.5, 600)
+  resizeCanvas(windowWidth/1.1, 600)
 }

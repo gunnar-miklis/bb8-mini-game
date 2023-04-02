@@ -6,7 +6,7 @@ class Coin {
         this.height = 50;
         this.velocity = 3;
 
-        this.x = 500;
+        this.x = windowWidth/1.1;
         this.y = random(25, 475); // place at random position, between
     }
 
@@ -31,7 +31,7 @@ class Coin {
             return false;
         } else {
             playerStats.score++;
-            document.querySelector('h2 span').innerText = playerStats.score;
+            document.querySelector('h3 span').innerText = playerStats.score;
             return true;
         }
     }
