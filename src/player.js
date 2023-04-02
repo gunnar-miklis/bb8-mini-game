@@ -31,13 +31,13 @@ class Player {
     }
 
     doesWin() {
-        if ( this.score >= 10 ) {
+        if ( this.score >= 1 ) {
             fill('orange');
             textStyle(BOLD);
             textSize(50);
-            text('Wiiiiiin !!!', 100, 100);
-            text('*happy beep*',100, 500);
-            image( game.celebrateImage, 100, 150, 350, 250);
+            text('Wiiiiiin !!!', 15, 100);
+            text('*happy\n      beep*',100, 500);
+            image( game.celebrateImage, 10, 120, 350, 250);
             // noLoop(); // stops animation
         }
     }
