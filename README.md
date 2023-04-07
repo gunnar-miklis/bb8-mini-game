@@ -1,7 +1,7 @@
 # bb8-mini-game
 project for w2d5 of ironhack web dev bootcamp 2023
 
-learning goals
+## learning goals
 * introduction to canvas and p5
 * make an animated background
 * spawn player and obstacles
